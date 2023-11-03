@@ -1,0 +1,29 @@
+{
+    "source": {
+        "generalLink": {
+            "url":"https://dados.cvm.gov.br/dados/FI/DOC/INF_DIARIO/DADOS/",
+            "params": {
+                "year": "2022",          
+                "month": "12",
+                "directory": "Dados_CVM_",
+                "namezip": "inf_diario_fi_",
+                "toprange": 15
+            },
+            "filetype":"csv",
+            "bla": ["", "", ""],
+            "ble": "",
+            "bli": ""
+        }
+    },
+    "database": {
+        "host": "seu_host",
+        "username": "seu_usuario",
+        "password": "sua_senha",
+        "database_name": "nome_do_banco"
+    },
+    "aws_account": {
+        "access_key": "sua_access_key",
+        "secret_key": "sua_secret_key",
+        "region": "sua_região"
+    }
+}
